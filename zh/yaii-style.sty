@@ -1,0 +1,26 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{yaii-style}
+
+% 基本工具宏包
+
+\RequirePackage{amsmath,amsthm,bm}
+\RequirePackage{hologo,verbatim,fancyvrb,layout,multicol}
+\RequirePackage[normalem]{ulem}
+\RequirePackage{colortbl,tabularx,multirow,makecell,booktabs}
+\RequirePackage{graphicx,xcolor,float,subcaption}
+\RequirePackage{svg}
+\RequirePackage{makeidx}
+\RequirePackage[inner=1in,outer=1.5in,vmargin=1in,marginparwidth=1in]{geometry}
+\RequirePackage{tikz}
+
+\PassOptionsToPackage{no-math}{fontspec}
+\RequirePackage[scheme=chinese,heading=true,fontset=fandol]{ctex}
+\RequirePackage{amssymb,latexsym,textcomp,mathrsfs,euscript,yhmath} % 与默认字体不冲突的一些符号包
+
+% hyperref 基本设定
+\RequirePackage{hyperref}
+\hypersetup{colorlinks,%
+  bookmarksnumbered=true,%
+  pdfstartview=FitH}
+
+\endinput

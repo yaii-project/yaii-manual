@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  yaii-manual:
+    build: .
+    volumes:
+      - ./zh:/book/zh
+      - ./docs:/book/docs

@@ -1,7 +1,12 @@
-version: "3.8"
 services:
-  yaii-manual:
+  latex:
     build: .
     volumes:
       - ./zh:/book/zh
-      - ./docs:/book/docs
+      - ./docs/zh:/book/zh/html
+      - ./build/zh:/book/zh/build
+volumes:
+  build:
+    external: true
+  docs:
+    external: true

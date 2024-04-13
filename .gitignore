@@ -463,3 +463,5 @@ yaii*.html
 yaii.css
 *.tmp
 html/
+docs/
+build/

@@ -5,7 +5,7 @@ REQUIRE = $(TITLE).tex $(TITLE)-style.sty $(TITLE).ist
 TEMP    = $(TITLE).{aux,log,idx,ind,ilg,out,toc,los,synctex.gz} $(TITLE)-example.aux
 
 TEX     = latexmk -xelatex
-TEX4HT  = make4ht --utf8 -d html
+TEX4HT  = make4ht --xetex --utf8 -d html
 MODE    = -interaction=nonstopmode -synctex=1
 MAKEIDX = makeindex
 
@@ -21,7 +21,7 @@ $(HTML): $(REQUIRE) FORCE_MAKE
 	$(TEX4HT) $(TITLE) "mathml,mathjax"
 
 install: all
-	$(INSTALL) $(PDF) html ..
+	$(INSTALL) $(PDF) build
 
 clean:
 	$(TEX) -C $(TITLE).tex

@@ -4,13 +4,27 @@
 
 家用电脑一般都自带有线网卡, 只需将网线插入网卡, 并连接到路由器即可. 
 
-电脑将会进行以下几个步骤:
+连接网络需要经过以下几个步骤:
+
+\subsection{光纤入户}
+
+互联网服务提供商 (Internet Service Provider, ISP)\footnote{在我国主要有中国联通、中国电信和中国移动 (新近增加的中国广电还没有自营的线路)} 铺设一条光纤通道直到您的住宅附近的一个光纤交换机, 然后从光纤交换机引出许多条线路, 其中一条直达您家中.
+
+不过在部分地区仍在使用旧线路，例如电话线、同轴电缆 (电视线路) 等, 亦有复用原先的居民楼线路, 只将外部到居民楼的线路改为光纤的.
+
+\subsection{调制调解}
+
+来自ISP的光纤进入您家中后不能直接用来上网, 从网线的\textit{RJ-45接口}和光纤接头不同这一点就很容易看出来.
+
+ISP派来的员工为您上门安装宽带时通常会提供 (租给您) 一台\textit{调制调解器 (modulator-demodulator, 缩写 modem, 俗称``猫'')}, 这台设备可以将光信号与电信号相互转换, 并提供可用于电脑的网络接口.
+
+有些Modem自带无线网络功能 (WLAN, 亦称Wi-Fi), \autoref*{sec:WLAN连接} 将会介绍这点.
+
+
 
 \subsection{拨号}
 
-\begin{quote}
-    这一过程经常由路由器完成, 常见的拨号协议为PPPoE(Point-to-Point Protocol over Ethernet, 以太网上的点对点协议) .
-\end{quote}
+这一过程经常由路由器完成, 常见的拨号协议为PPPoE(Point-to-Point Protocol over Ethernet, 以太网上的点对点协议) .
 
 
 
@@ -26,7 +40,7 @@
 
 % TODO
 
-\section{WLAN连接}
+\section{WLAN连接}\label{sec:WLAN连接}
 
 % TODO
 

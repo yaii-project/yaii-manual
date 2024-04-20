@@ -2,19 +2,29 @@
 
 ## User
 
+<!--
 You can read this manual online: https://yaii-project.github.io/yaii-manual/en
 
 Or download the offline PDF file: https://github.com/yaii-project/yaii-manual/releases/latest/download/yaii-manual.en.pdf
+-->
 
 您可以在线阅读这本手册: https://yaii-project.github.io/yaii-manual/zh
 
 或者下载离线PDF文件: https://github.com/yaii-project/yaii-manual/releases/latest/download/yaii-manual.zh.pdf
 
+### What's this
+
+**这是什么？**
+
+您可能此前被手机、电脑、平板所困扰，有关它们的操作方法、背后原理等诸如此类疑问，本书为您一一解开。
+
 ## Contributor
 
+<!--
 If you would like to contribute to this manual, please make sure you have a Github account.
 
 We use LaTeX to write our documents, you may need to learn how to use LaTeX first: http://mirrors.ctan.org/info/lshort/english/lshort-letter.pdf
+-->
 
 若您想要为此手册做出贡献，请先确保您拥有一个Github账户.
 

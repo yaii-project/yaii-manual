@@ -1,26 +1,39 @@
 \chapter{Introduction to Yaii Manual}
+\footnote{Yaii是Yet Another Introduction to the Internet的缩写, 意为``另一本互联网导论"; Introduction to Yaii Manual, 意即``另一本互联网导论的导论". 这是本书的导言章节.}
 
-本书\footnote{本书标题及此章节标题特地不作翻译. }旨在告诉您, 如何快速高效地从互联网上获取信息, 以及如何避免来自广告、垃圾内容、恶意软件的骚扰. 
+如今电子设备已经走近千家万户, 您的手边说不定就有一部手机. 您可知道, 手机为什么能与远方的人通讯?
+
+您也会发现, 上网浏览文章和读书是不同的, 不仅可以从一个``网页"方便地前往另一个网页, 而如果是纸质书的话, 肯定要到处查阅好几本书.
+
+诚然, 互联网有许多便利之处, 但是您最为感到烦扰的就是广告了, 不仅浪费时间, 而且时常让人上当受骗; 同时, 也有无数人正因为恶意软件和安全漏洞而蒙受损失.
+
+本书旨在向您介绍, 如何快速高效地从互联网上获取信息, 以及如何避免来自广告、垃圾内容、恶意软件的骚扰. 
 
 \section{入门章节}
 
 \subsection{浏览器是您访问互联网的入口}
 
-您的电脑桌面\footnote{入门章节提供的教程专门面向使用电脑设备的Windows用户, 如果您正在使用手机、平板等移动设备, 您可能需要适用于Android (安卓) 、iOS、iPadOS、鸿蒙系统的教程, 请参阅本手册后文的对应章节. }上可能有这样一个图标: 
-\includegraphics[width=0.6in]{media/Internet_Explorer_4_and_5_logo.png}
-\footcite[该Internet Explorer标志来源于 \url{https://commons.wikimedia.org/wiki/File:Internet_Explorer_4_and_5_logo.svg}, Credit by Microsoft, Public domain, via Wikimedia Commons]{IE}
+旧时的人们需要靠老师和图书馆来获取宝贵的知识, 学堂和图书馆的大门就是通往知识的入口. 如今, 网络成为人们生活不可或缺的一部分, 那么互联网的入口在哪里?
 
-它 (Internet
-Explorer, IE浏览器) 是微软开发的一款网页浏览器, 它很旧, 即便是IE11也已经结束了它的生命周期\footnote{这意味着您永远都不会接收到关于它的更新了. 但是最主要的一点是随操作系统附带的IE版本太旧, 无法支持比较新的TLS标准, 这会导致您访问一些网站时被提示安全证书无效. }. 
+答案是: 浏览器.
+
+浏览器是什么样的呢? 启动您的电脑, 您的电脑桌面\footnote{入门章节提供的教程专门面向使用电脑设备的Windows用户, 如果您正在使用手机、平板等移动设备, 您可能需要适用于Android (安卓) 、iOS、iPadOS、鸿蒙系统的教程, 请参阅本手册后文的对应章节. }上很可能有这样一个图标: 
+\includesvg[width=0.6in]{media/Internet_Explorer_4_and_5_logo.svg}
+\cite{IE}\footfullcite{IE}
+
+您可以用鼠标左键双击这个图标以打开它. 它 (Internet Explorer, IE浏览器) 是微软开发的一款网页浏览器, 它很旧, 即便是IE11也已经结束了它的生命周期\footnote{这意味着您永远都不会接收到关于它的更新了. 但是最主要的一点是随操作系统附带的IE版本太旧, 无法支持比较新的TLS标准, 这会导致您访问一些网站时被提示安全证书无效. }
+
+您会在电脑桌面上看到它的主要原因是它随Windows一起捆绑售卖, 不过自Windows 10开始, 微软更换了新的Microsoft Edge, 它的图标是这样的: \includesvg[width=0.6in]{media/Edge_Logo_2019.svg}
+\cite{MSEdge}\footfullcite{MSEdge}
 
 为了访问现代网页\footnote{这通常是指由W3C制订的HTML5标准, 即现在最流行的网页呈现格式, 您所看到的网页还会一同使用CSS3标准、EMCA Script 6或者更新的标准. }, 您需要一个比较新的浏览器. \footnote{Windows 10/11的用户可能会使用系统附带的Edge浏览器, 如果您这么做了, 可以暂时跳过下面安装新浏览器的过程. 不过您迟早会需要练习下载安装一款软件的. }
 
 \subsection{获取浏览器}
 
-您可以从 \url{https://www.mozilla.org/firefox/all/\#product-desktop-esr} 下载Firefox浏览器\footnote{又名火狐浏览器, 是一款开源软件. }, 打开网页后点击【立即下载】
-\footnote{图中显示的选择是【Firefox延长支持版】, 这是考虑到仍然有Windows
+您可以从 \url{https://www.mozilla.org/firefox/all/\#product-desktop-esr} 下载Firefox浏览器\footnote{又名火狐浏览器, 是一款开源软件. }, 打开网页后点击 \fakebutton[blue!80]{\color{white}立即下载}
+\footnote{图中显示的选择是\fakebutton{Firefox延长支持版}, 这是考虑到仍然有Windows
 7/8/8.1用户在阅读本手册, 如果您使用的是Windows
-10/11等更新版本, 可以选择【Firefox】, 这样您就能保持更新到最新的功能. }
+10/11等更新版本, 可以选择\fakebutton{Firefox}, 这样您就能保持更新到最新的功能. }
 \footnote{安全警告: Windows XP或更老版本请考虑升级, 虽然仍然提供下载安装, 但是您将不会再收到任何更新. 这意味着当旧软件被发现安全漏洞时, 您将暴露在危险下. }
 
 \includegraphics[width=5in]{media/image2.png}
@@ -33,7 +46,7 @@ Explorer, IE浏览器) 是微软开发的一款网页浏览器, 它很旧, 即�
 
 \includegraphics[width=2.5in]{media/image4.png}
 \includegraphics[width=2.5in]{media/windows-uac-dialog-win11.png} \\
-这两个界面都是为了保护您的电脑不受病毒侵扰, 特此向您确认是否要继续. 请按【运行】或【是】. 
+这两个界面都是为了保护您的电脑不受病毒侵扰, 特此向您确认是否要继续. 请按\fakebutton{运行}或\fakebutton{是}. 
 
 \newpage
 

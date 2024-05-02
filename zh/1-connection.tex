@@ -1,8 +1,22 @@
 \chapter{网络连接}
 
+\section{电话时代}
+
+电话 (Telephone, 旧时音译作``德津风") 的线路是容易理解的, 早期的电话接线 (将通讯的两人连接起来) 要靠``接线生"人工操作.
+
+电话线从用户家中通往电话局, 需要通电话时, 便拿起话筒说: ``接线生, 请给我接某某\dots\dots"
+
+我们可以说, 这是一个以电话局为核心, 四面八方辐射向用户的\textbf{电话网络}.
+
+使用这个网络进行通信时有三个要素: 呼叫的用户, 电话局的接线员, 被叫的用户. 往后我们可以看到, 不管是什么网络, 总是不可或缺这三个要素.
+
+在以前, 电话只有一些企事业单位有, 要打电话的话就需要拨给对方工作的单位或家住处附近, 然后由人转接 (或者把人叫过来接电话), 于是又衍生出了传呼服务和查号台. 当年的查号台是 114, 由于查号台和DNS的功能很像, 所以 \verb|114.114.114.114| 这个IP地址被富有商业头脑的人租下了\footnote{IP地址只有租凭, 没有购买一说, 但实质上租期超过百年也差不多就是购买了.}.
+
 \section{有线连接}
 
-家用电脑一般都自带有线网卡, 只需将网线插入网卡, 并连接到路由器即可. 
+自电话时代以来, 有线连接一直是最具代表性和教学意义的网络连接方式.
+
+对于用户来说, 家用电脑一般都自带有线网卡, 只需将网线插入网卡, 并连接到路由器即可开始上网. 那么, 电脑是怎么连接上网络的呢?
 
 连接网络需要经过以下几个步骤:
 
@@ -14,7 +28,16 @@
 
 \subsection{调制调解}
 
-来自ISP的光纤进入您家中后不能直接用来上网, 从网线的\textit{RJ-45接口}和光纤接头不同这一点就很容易看出来.
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=2in]{media/SC-optical-fiber-connector-hdr-0a.jpg}
+    \caption{入户光纤接线头
+    \cite{OpticalFiberConnector}
+    }
+\end{figure}
+\footfullcite{OpticalFiberConnector}
+
+来自ISP的光纤进入您家中后不能直接用来上网, 从网线的\textit{RJ-45接口}和入户光纤接头不同这一点就很容易看出来.
 
 ISP派来的员工为您上门安装宽带时通常会提供 (租给您) 一台\textit{调制调解器 (modulator-demodulator, 缩写 modem, 俗称``猫'')}, 这台设备可以将光信号与电信号相互转换, 并提供可用于电脑的网络接口.
 
@@ -32,9 +55,16 @@ ISP派来的员工为您上门安装宽带时通常会提供 (租给您) 一台\
 
 % TODO
 
-\subsection{拨号}
+\subsection{电脑连接路由器}
 
-% TODO
+\begin{figure}[htbp]
+    \centering
+    \includesvg[width=2in]{media/Ethernet_plug_grey.svg}
+    \caption{RJ-45线缆
+    \cite{EthernetPlugGrey}
+    }
+\end{figure}
+\footfullcite{EthernetPlugGrey}
 
 \subsection{拨号}
 
